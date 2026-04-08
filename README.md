@@ -6,12 +6,14 @@ A simple multi-agent workflow to help with my shopify drop-shipping:
 - Custom agents to use the MCP toolsets and other defined tools
 
 I used this to:
-0. Learn about agent development with ADK.
-1. Conversationally interact with my shop & its products.
-2. Import products from AliExpress/Alibaba via DSers.
-3. Updated product content w/ Ai generated content.
+
+1. Learn about agent development with ADK.
+2. Conversationally interact with my shop & its products.
+3. Import products from AliExpress/Alibaba via DSers.
+4. Updated product content w/ Ai generated content.
 
 Whats next:
+
 1. Provide more context of the store - may helps when generating content for products.
 2. Prompt improvement - may help improve understanding of MCPs for the Agents so better workflows.
 
