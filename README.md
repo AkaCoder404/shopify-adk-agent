@@ -94,10 +94,9 @@ User: "Import products from supplier.csv and generate store-ready content"
 
 ### Prerequisites
 
-1. **Shopify**: Get shopify domain (xxx.myshopify.com), shopify client id, and shopify client secret after creating a new app. (Follow directions of https://github.com/geli2001/shopify-mcp to provide the proper scopes 'read_products, write_products, read_customers, write_customers, read_orders, write_orders'
-2. Install the app in Shopify.
-3. **Google AI**: Get google api key from https://aistudio.google.com
-4. **DSers** (optional): Have a DSers account (free plan works) with Shopify store connected
+1. **Shopify**: Get shopify domain (xxx.myshopify.com), shopify client id, and shopify client secret after creating a new app and install app on Shopify Store.
+2. **Google AI**: Get google api key from https://aistudio.google.com/
+3. **DSers** (optional): Have a DSers account (free plan works) with Shopify store connected
 
 ### Install MCP Servers
 
