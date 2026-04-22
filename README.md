@@ -2,7 +2,7 @@
 
 A simple multi-agent workflow to help with my shopify drop-shipping:
 - Built with Google ADK Multi-Agent Hierarchy
-- 3 MCP toolsets: [Shopify Store MCP](https://github.com/geli2001/shopify-mcp), [Shopify Dev MCP](https://shopify.dev/docs/apps/build/devmcp), [DSers MCP](https://github.com/lofder/dsers-mcp-product)
+- 3 MCP toolsets: [Shopify Store MCP](https://github.com/geli2001/shopify-mcp), [Shopify Dev MCP](https://shopify.dev/docs/apps/build/devmcp), [DSers MCP](https://github.com/akacoder404/dsers-mcp)
 - Custom agents to use the MCP toolsets and other defined tools
 
 I used this to:
@@ -31,7 +31,7 @@ graph TD
     B --> B1[MCP: shopify-mcp]
     B --> B2[MCP: @shopify/dev-mcp]
     
-    C --> C1[MCP: @lofder/dsers-mcp-product]
+    C --> C1[MCP: @akacoder404/dsers-mcp]
     C1 --> C1a[Import from AliExpress]
     C1 --> C1b[Import from Alibaba]
     C1 --> C1c[Pricing Rules]
@@ -108,8 +108,8 @@ npx -y @shopify/dev-mcp@latest
 npx -y shopify-mcp
 
 # DSers MCP (with OAuth login)
-npx -y @lofder/dsers-mcp-product login
-npx -y @lofder/dsers-mcp-product
+npx -y @akacoder404/dsers-mcp login
+npx -y @akacoder404/dsers-mcp
 ```
 
 ### Python Setup
